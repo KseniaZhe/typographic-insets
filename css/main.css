@@ -90,21 +90,37 @@ footer {
 
 blockquote {
   float: left;
-  width: 12.5em;
+  width: 300px;
   text-align: right;
+  margin: 1rem 1rem 1rem -9.5rem;
+  font-size: 1.5rem;
+  border-top: solid 3px #333;
+  border-bottom: solid 3px #333;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 figure {
   float: right;
   width: 300px;
   text-align: left;
+  margin: 1rem -9.5rem 1rem 1rem;
+  border-top: solid 3px #333;
+  border-bottom: solid 3px #333;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+figcaption {
+  font-size: 0.875rem;
+  font-style: italic;
 }
 
 .wrapper {
   max-width: 45em;
 }
 
-.wrapper p:first-child:first-letter {
+main > p:first-child::first-letter {
   background-color: #666;
   color: #fff;
   font-style: normal;
@@ -112,8 +128,7 @@ figure {
   float: left;
   padding: 0.85rem;
   margin-right: 1rem;
-  border-top-color: #333;
-  border-bottom-color: #333;
-  border-width: 3px;
-  border-style: solid;
+  border-top: solid 3px #333;
+  border-bottom: solid 3px #333;
+  margin: 0 1rem 0 -3rem;
 }
