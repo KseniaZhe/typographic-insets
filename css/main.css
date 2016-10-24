@@ -92,32 +92,30 @@ blockquote {
   float: left;
   width: 300px;
   text-align: right;
-  margin: 1rem 1rem 1rem -9.5rem;
+  margin: .5rem 1rem .5rem -9.5rem;
   font-size: 1.5rem;
   border-top: solid 3px #333;
   border-bottom: solid 3px #333;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  color: #666;
+  line-height: 1.3;
 }
 
 figure {
   float: right;
   width: 300px;
   text-align: left;
-  margin: 1rem -9.5rem 1rem 1rem;
+  margin: 0 -9.5rem 0 1rem;
   border-top: solid 3px #333;
   border-bottom: solid 3px #333;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
 }
 
 figcaption {
-  font-size: 0.875rem;
+  font-size: .875rem;
   font-style: italic;
-}
-
-.wrapper {
-  max-width: 45em;
 }
 
 main > p:first-child::first-letter {
@@ -126,9 +124,8 @@ main > p:first-child::first-letter {
   font-style: normal;
   font-size: 5rem;
   float: left;
-  padding: 0.85rem;
-  margin-right: 1rem;
+  padding: 1rem;
   border-top: solid 3px #333;
   border-bottom: solid 3px #333;
-  margin: 0 1rem 0 -3rem;
+  margin: .35rem 1rem .25rem -2.7rem;
 }
